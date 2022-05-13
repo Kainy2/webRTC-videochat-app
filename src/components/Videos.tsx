@@ -198,6 +198,7 @@ const Videos = ( { mode, callId, setPage }: any ) => {
                 onClick={ () => setPage( "home" ) }
                 className="secondary"
               >
+
                 Cancel
               </button>
               <button onClick={ setupSources }>Start</button>
