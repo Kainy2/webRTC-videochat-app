@@ -35,7 +35,7 @@ const Videos = ( { mode, callId, setPage }: any ) => {
     localRef.current.srcObject = localStream;
     remoteRef.current.srcObject = remoteStream;
 
-
+    setWebcamActive( true )
 
     if ( mode === "create" ) {
       const callDoc = firestore.collection( "calls" ).doc();
