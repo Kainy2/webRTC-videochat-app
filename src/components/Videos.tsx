@@ -177,6 +177,7 @@ const Videos = ( { mode, callId, setPage }: any ) => {
             <button
               onClick={ () => {
                 navigator.clipboard.writeText( roomId );
+                alert( 'copied' )
               } }
             >
               <img src={ CopyIcon } alt='' />
